@@ -17,7 +17,7 @@ def hello_world():
             return render_template('index.html')
         elif mytype=='page1':
             return render_template('index_1.html')
-		elif mytype=='page2':
+	elif mytype=='page2':
             return render_template('index_2.html')
         else:
             return render_template('index.html')
